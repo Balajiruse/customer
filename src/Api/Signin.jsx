@@ -1,5 +1,5 @@
 
-const Api = "https://money-manager-backend-jdtf.onrender.com/";
+const Api = "https://petty-cash-backend-w7d0.onrender.com";
 
 export async function RegisternewUser(newuser) {
   const res = await fetch(`${Api}/register`, {

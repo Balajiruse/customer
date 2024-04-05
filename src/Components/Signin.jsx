@@ -63,7 +63,7 @@ const Signinuser = () => {
       </div>
       <div>
         <div className="flex flex-col justify-center items-center m-2 card p-4 m-4 bg-red-100  mx-auto w-2/5 rounded-md">
-          <h1 className="text-center m-4 font-bold text-xl">Sign In</h1>
+          <h1 className="text-center m-4 text-yellow-700 hover:underline font-bold text-xl">Sign In</h1>
           <div className="w-full max-w-xs">
             {success !== "" && (
               <div className="toast toast-top toast-end">
@@ -136,9 +136,9 @@ const Signinuser = () => {
                 
               
               </div>
-              <div className="text-center text-yellow-700 m-4 ">
+              <div className="text-center text-yellow-700 m-4  font-bold text-ml">
                 No Account?{" "}
-                <Link to="/register" className="text-yellow-700 hover:underline">
+                <Link to="/register" className="text-yellow-700 hover:underline font-bold text-ml">
                   Create one{" "}
                 </Link>
               </div>
@@ -147,7 +147,7 @@ const Signinuser = () => {
         </div>
         <div className="card p-4 m-4 bg-red-100  mx-auto w-2/5 rounded-md">
       <h4 className="text-lg font-semibold mb-2">Demo Login</h4>
-      <p>Email: balajiruse@gmail.com</p>
+      <p>Email: luciferaslou@gmail.com</p>
       <p>Password: password</p>
     </div>
       </div>

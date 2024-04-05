@@ -1,4 +1,5 @@
 import { useNavigate } from "react-router-dom";
+import pic1 from '../assets/Balaji.jpg'
 
 export default function DashboardTopar() {
   const navigate = useNavigate();
@@ -11,22 +12,22 @@ export default function DashboardTopar() {
 
   return (
     <div className="grid card rounded-box place-items-center m-1">
-      <div className="navbar bg-base-100 m-2">
+      <div className="navbar bg-base-100 m-2 ">
         <div className="flex-1">
-          <a className="btn btn-ghost text-xl">Dashboard</a>
+          <a className="btn btn-ghost text-xl font-bold">Money Manager</a>
         </div>
         <div className="flex-none">
           <ul className="menu menu-horizontal px-1">
             {/* <li className="p-2 btn-sm bg-base-100" onClick={() => navigate('/Expense')}> Expense</li>
           <li className="p-2 btn-sm bg-base-100" onClick={() => navigate('/Income')}> Income</li> */}
             <li
-              className="p-2 btn-sm bg-base-100"
+              className="p-2 btn-sm bg-base-100 text-xl font-bold"
               onClick={() => navigate("/addexpense")}
             >
               Add Expense
             </li>
             {/* <li className="p-2 btn-sm bg-base-100" onClick={() => navigate('/addincome')}>Add Income</li> */}
-            <li className="p-2 btn-sm bg-base-100" onClick={() => logout()}>
+            <li className="p-2 btn-sm bg-base-100 text-xl font-bold" onClick={() => logout()}>
               Logout
             </li>
           </ul>
@@ -39,7 +40,7 @@ export default function DashboardTopar() {
               <div className="w-10 rounded-full">
                 <img
                   alt="Tailwind CSS Navbar component"
-                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4WwaP-RX56Uj_ftxyeEvGuuDWkiiTCYEIuw&usqp=CAU"
+                  src={pic1}
                 />
               </div>
             </div>
