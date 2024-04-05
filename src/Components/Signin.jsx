@@ -62,8 +62,8 @@ const Signinuser = () => {
         />
       </div>
       <div>
-        <div className="flex flex-col justify-center items-center m-2 card p-4 m-4 bg-red-100  mx-auto w-2/5 rounded-md">
-          <h1 className="text-center m-4 text-yellow-700 hover:underline font-bold text-xl">Sign In</h1>
+        <div className="flex flex-col justify-center items-center m-2 card p-4 m-4 bg-red-100 mx-auto rounded-md">
+          <h1 className="text-center m-4 text-yellow-700  font-bold text-xl">Sign In</h1>
           <div className="w-full max-w-xs">
             {success !== "" && (
               <div className="toast toast-top toast-end">
