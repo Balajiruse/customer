@@ -57,7 +57,7 @@ const NavBar = ({ role }) => {
   return (
     <div className="h-full max-h-[100vh] bg-slate-100 ">
        <div className="flex-1">
-          <a className="btn btn-ghost text-xl font-bold text-center">Customer Management</a>
+          <a className="btn btn-ghost text-xl font-bold ">Customer Management</a>
        
       {/* For Mobile View */}
       <div className="flex justify-end px-1 py-1  font-semibold sm:px-3 md:hidden">
